@@ -130,7 +130,7 @@ public class Ticket {
                 ", asunto='" + asunto + '\'' +
                 ", descripcion='" + descripcion + '\'' +
                 ", estado='" + estado + '\'' +
-                ", usuario=" + usuario +
+                ", usuario=" + usuario.getCorreo() +
                 ", departamento=" + departamento +
                 '}';
     }
